@@ -1,0 +1,13 @@
+train: c:/Users/ABHINANDHAN/Desktop/ultrainstinct/train/images
+val: c:/Users/ABHINANDHAN/Desktop/ultrainstinct/valid/images
+test: c:/Users/ABHINANDHAN/Desktop/ultrainstinct/test/images
+
+nc: 2
+names: ['red-apple', 'green-apple']
+
+roboflow:
+  workspace: abhinandhan
+  project: apple-detection-wiz5p-6akdp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abhinandhan/apple-detection-wiz5p-6akdp/dataset/1
