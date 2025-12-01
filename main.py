@@ -183,7 +183,7 @@ st.sidebar.info(
 @st.cache_resource
 def load_models():
     try:
-        c_model = YOLO('runs/detect/train/weights/best.pt') # Color Model
+        c_model = YOLO('best.pt')  # Color Model
         r_model = YOLO('best.pt') # Ripeness Model
         return c_model, r_model
     except Exception as e:
@@ -520,3 +520,4 @@ st.markdown("""
     <p>Developed by Abhinandhan P | © 2025 Apple Ripeness AI</p>
 </div>
 """, unsafe_allow_html=True)
+
